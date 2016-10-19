@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lustria', serif;
+}
+p, div {
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background-image: url('sunset1.jpg');
+	background-repeat:no-repeat;
+}
+.container {
+	width: 50%;
+	margin: 100px auto;
+	background-color: red;
+	padding: 20px;
+	opacity:0.2;
+}
+
+

@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head>
+	<title>Kathleen L. Foster</title>
+	<meta name=keywords content="Kathleen Foster UCR uOttawa Polypterus ratfish lizard anole Anolis muscle physiology biomechanics">
+	<meta name=description content="Kathleen Foster is an Assistant Professor of Biology in the Department of Biology at Ball State University.">
+	<meta http-equiv="pragma" content="no-cache">
+	<link rel="stylesheet" type="text/css" href="foster.css">
+	<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,300bold' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="./lizard icon.jpg" type="image/x-icon" />
+	
+	
+</head>
+<body>
+
+	
+	<script src="./backstretch_function/libs/jquery/jquery.js"></script>
+	<script src="./backstretch_function/src/jquery.backstretch.js"></script>
+	<script>
+	    $.backstretch(["sunset1.jpg"]);
+  	</script>
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#content div").hide(); // Initially hide all content
+    $("#tabs li:first").attr("id","current"); // Activate first tab
+    $("#content div:first").fadeIn(); // Show first tab content
+    
+    $('#tabs a').click(function(e) {
+        e.preventDefault();
+        if ($(this).closest("li").attr("id") == "current"){ //detection for current tab
+         return       
+        }
+        else{             
+        $("#content div").hide(); //Hide all content
+        $("#tabs li").attr("id",""); //Reset id's
+        $(this).parent().attr("id","current"); // Activate this
+        $('#' + $(this).attr('name')).fadeIn(); // Show content for current tab
+        }
+    });
+});
+</script>
+<div id="wrapper">
+	<div id="heading">
+		<font class="bigfont"> Kathleen L. Foster, Ph.D. </font>
+		<br />
+		<font size="6px">Assistant Professor of Biology, Ball State University</font>
+		<br />
+		<a href="https://www.researchgate.net/profile/Kathleen_Foster2" target="_blank"><img src="researchgate_logo.png" alt="ResearchGate" style="width:36px; margin: 10px 0px 10px 0px; vertical-align:middle"></a>
+		<a href="https://www.linkedin.com/in/kathleen-foster-07148970" target="_blank"><img src="linkedin_logo.png" alt="LinkedIn" style="width:36px; margin: 10px 0px 10px 18px; vertical-align:middle"></a>
+		<a href="https://scholar.google.ca/citations?user=GFbWMnkAAAAJ&hl=en&oi=ao" target="_blank"><img src="google_scholar_logo.png" alt="GoogleScholar" style="width:36px; margin: 10px 18px 10px 18px; vertical-align:middle"></a>
+		<font><a href="./Foster_CV_for_website.pdf" target="_blank">Click here</a> for my CV (opens in new tab)</font>
+		<a href="https://twitter.com/KathleenLFoster" target="_blank"><img src="Twitter_logo_blue.png" alt="Twitter" style="width:36px; margin: 10px 0px 10px 18px; vertical-align:middle"></a>
+		<a href="https://orcid.org/0000-0002-7365-7885" target="_blank"><img src="orcid_logo.png" alt="Orcid" style="width:36px; margin: 10px 0px 10px 18px; vertical-align:middle"></a>
+		<a href="https://publons.com/a/1605179/" target="_blank"><img src="publons_logo.png" alt="Publons" style="width:36px; margin: 10px 0px 10px 18px; vertical-align:middle"></a>
+	</div>
+</div>
+
+<div id="wrapperbody">
+
+<ul id="tabs">
+    <li><a href="#" name="tab1"><img src="home_tab.png" alt="Home"></a></li>
+    <li><a href="#" name="tab2"><img src="research_tab.png" alt="Research"></a></li>
+    <li><a href="#" name="tab3"><img src="publications_tab.png" alt="Publications"></a></li>
+    <li><a href="#" name="tab4"><img src="teaching_tab.png" alt="Teaching"></a></li>    
+    <li><a href="#" name="tab5"><img src="presentations_tab.png" alt="Presentations"></a></li>
+    <li><a href="#" name="tab6"><img src="news_tab.png" alt="News"></a></li>    
+    <li><a href="#" name="tab7"><img src="collaborator_tab.png" alt="Collaborators"></a></li>
+   
+</ul>
+
+<div id="content"> 
+    <div id="tab1">
+		<h1 class="envelopehome" width="650px"><center>A bit about me...</center></h1>
+		<hr />
+
+					<img src="./me.jpg" alt="me" class="envelopeleft" style="margin-top: 45px">
+
+				<p class="enveloperight" style="width: 570px; margin-top: 20px">
+					I am passionate about education and inspiring a love of science and curiosity about the natural world in people of all ages. My personal research interests lie in understanding the biomechanical and physiological mechanisms underlying the movement of animals.  Specifically, I am interested in muscle function and how it is affected by ecological demands placed on it.  I use an integrative approach, which bridges the fields of functional morphology, ecophysiology, comparative biomechanics, and evolution to provide an essential, mechanistic-driven approach to understanding the physiological and ecomorphological mechanisms underlying both aquatic and terrestrial systems. I am also interested in how modern statistical tools (e.g. machine learning methods) can not only help detect and quantify coordination of limbs and muscles, but also classify discrete locomotor behaviors. </p>
+					<br />					
+					<font class="enveloperight" style="width: 570px; margin-top: 20px"> <font style="font-family: 'Lustria', serif; font-size: 24px"> <center>Research Techniques: </center></font>
+					
+					
+					<ul>
+						<li><b>Electromyography (EMG)</b> - A method that uses electrodes implanted into muscles to measure their <i>in vivo</i> electrical activity during locomotion.</li>
+						<li><b>Sonomicrometry</b> - A technique in which small, piezoelectric crystals are implanted into muscles to monitor changes in muscle fascicle length as an animal moves.</li>
+						<li><b>In situ/in vitro muscle physiology</b> - These muscle preps allow us to explore force-length and force-velocity curves of whole muscles or individual muscle fibers.</li>
+						<li><b>High Speed Video </b>- This is essential for capturing and analyzing fast animal movements.</li>
+						<li><b>Particle Image Velocimetry (PIV) </b>- A technique which allows the visualization of fluid flow through illumination of neutrally buoyant particles with a laser. </li>
+					</ul>
+					</font>
+		<br /><br /><br /><br />
+		<font class="envelopeleft" style="margin-top: 30px; margin-left: 200px"> <font style="font-family: 'Lustria', serif; font-size: 24px"> <center>Contact Information</center></font>
+
+		<table border align=center>
+
+			<tr>
+				<td align=center width="100">
+					<b>Address:</b>
+				</td>
+				
+				<td align=center width="300">
+					Office: Cooper Life Sciences 326K<br />
+					Lab: Cooper Life Sciences 224<br />
+					<a href="https://www.bsu.edu/academics/collegesanddepartments/biology" target="_blank">Department of Biology</a><br />
+					<a href="https://www.bsu.edu/" target="_blank">Ball State University</a><br />
+					2111 W. Riverside Ave. <br />
+					Muncie, IN, 47306
+				</td>
+
+				<td align=center width="200">
+					
+					<a href="mailto:kfoster@uottawa.ca" target="_blank">klfoster@bsu.edu</a><br />
+				</td>
+   			</tr>
+		</table>
+		</font>
+	</div>
+    <div id="tab2">
+    <h1 class="enveloperesearch"><center>Research Experiences</center></h1>
+		<hr />
+		<br />
+			<font class="enveloperight" style="width: 570px; margin-top: 5px"><font style="font-family: 'Lustria', serif; font-size: 18pt"><center>Ph.D. Dissertation (2011-2016)</center></font>
+				<p>I completed my Ph.D. in <a href="http://www.biomechanics.ucr.edu" target="_blank">Dr. Tim Higham</a>'s comparative biomechanics laboratory where I investigated the effects of environmental demand on muscle function and kinematics in both the hind limb and forelimb of <i>Anolis</i>.  In 2012, I <a class=main href="./Foster and Higham 2012.pdf" target="_blank">published</a> the first portion of this work, which dealt with how incline and perch diameter impacted the three-dimensional limb kinematics of <i>Anolis carolinensis</i>.  This work generated hypotheses about how motor control and physiology of muscles might be affected by changes in substrate characteristics. I tested hypotheses relating to the relationship between muscle activity patterns and kinematics in the context of arboreality in the same species and <a href="./Foster and Higham 2014.pdf" target="_blank">published</a> the results in <i>Proceedings of the Royal Society B</i> in March, 2014. In my final chapter, I integrated multiple techniques (morphological dissections, kinematics, electromyography, and <i>in situ</i> force-length properties) to build a comprehensive picture of gastrocnemius muscle function in <i>Anolis equestris</i>. This work was <a href="http://jeb.biologists.org/content/220/5/796" target="_blank">published</a> in the <i>Journal of Experimental Biology</i> in March, 2017.</p>
+			</font>
+		<img src="./Anolis garmani_small.jpg" alt="Anolis garmani" class="envelopeleft" style="margin-top: 60px">
+
+			<font class="envelopeleft" style="width: 570px; margin-top: 30px"><font style="font-family: 'Lustria', serif; font-size: 18pt"><center>Ratfish Locomotion - Honours Thesis (2009-2010)</center></font>
+				<p>My honours thesis at the University of British Columbia (Vancouver, Canada) consisted of a comparison of functional morphology and swimming strategies of two cartilaginous fishes, the spotted ratfish, a labriform swimmer, and the spiny dogfish, a small shark which uses its caudal fin to swim <a class=main href="./Foster and Higham 2010.pdf" target="_blank">(pdf)</a>.  This project originally began as a field project (summer 2009) at the <a href="http://www.bms.bc.ca" target="_blank">Bamfield Marine Sciences Centre</a> on Vancouver Island and in addition to dissections, involved optaining of high speed video of the ratfish swimming in a 12m x 2m x 1m flume at the marine station.  In addition to this, I gathered particle image velocimetry data using a pulse laser in an effort to understand force production generated by the aquatic flight in this fish. I am currently analyzing this data.
+				</p>
+			</font>
+
+		<img src="./ratfish_small.jpg" alt="Hydrolagus collei" class="enveloperight" style="margin-top: 45px">
+
+			<font class="enveloperight" style="margin-top: 30px; margin-right: 80px; width: 570px"><font style="font-family: 'Lustria', serif; font-size: 18pt"><center>Sturgeon Physiology - NSERC USRA (2009)</center></font>
+				<p>In the summer of 2009 I was awarded a <a href="http://www.nserc-crsng.gc.ca/index_eng.asp" target="_blank">Natural Sciences and Engineering Research Council of Canada</a> <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp" target="_blank">Undergraduate Student Research Award</a> which I held in the <a href="http://www.zoology.ubc.ca/~brauner/wp/" target="_blank">Brauner lab</a> at the University of British Columbia.  There, I assisted, among others, Daniel Baker (PhD candidate) in his research investigating the physiological bases of carbon dioxide tolerance in white sturgeon.  In addition to working directly with the sturegon, this experience introduced me to a variety of techniques and equipment, including how to perform Na+/K+ ATPase, lactate, and cell-free translation assays and how to use atomic absorbance spectrometers and spectrophotometers. 
+				</p>
+			</font>
+		<img src="./ubc_logo.gif" alt="UBC logo" class="envelopeleft" style="margin-top: 60px; margin-left: 80px">
+			<font class="envelopeleft" style="width: 570px; margin-top: 30px"><font style="font-family: 'Lustria', serif; font-size: 18pt"><center>Cancer Lab Research Assistant Co-op (2005)</center></font>
+				<p>From January to June 2005, my last year of high school, I was selected to be the first in an initiative to promote research and science among secondary school students.  I was placed in <a href="http://www.biochem.uwo.ca/fac/dimattia/welcome.html" target="_blank">Dr. Gabriel DiMattia</a>'s oncology laboratory at the London Regional Cancer Program in London, Ontario, Canada, where I served as a lab technician and research assistant.  I worked with Dr. DiMattia's masters students and in addition to training incoming lab technicians, I learned several isolating techniques including Southern, Northern, and Western blotting as I assisted in their research investigating the relationship between stanniocalcin hormones and estrogen receptor-positive breast cancer.
+				</p>
+			</font>
+		<img src="./lrcp_small.jpg" alt="London Regional Cancer Program" class="enveloperight" style="margin-top: 55px">
+	
+    </div>
+    <div id="tab3">
+	<h1 class="envelopepublications"><center>Publications</center></h1>
+		<hr />
+		<script type="text/javascript">
+		<!-->
+		var image1=new Image()
+		image1.src="Foster_and_Higham_2010.jpg"
+		var image2=new Image()
+		image2.src="Foster_and_Higham_2012.jpg"
+		var image3=new Image()
+		image3.src="Foster_and_Higham_2014.jpg"
+		var image4=new Image()
+		image4.src="Foster_et_al_2015.jpg"
+		var image5=new Image()
+		image5.src="Foster_and_Higham_2017.jpg"
+		var image6=new Image()
+		image6.src="Foster_et_al_2018_Polyp.jpg"
+		var image7=new Image()
+		image7.src="Foster_et_al_2018_skink.jpg"
+		//-->
+		</script>
+		<img src="./Foster_and_Higham_2010.jpg" name="slide" class="envelopeleft" style="margin-top: 85px">
+		<script type="text/javascript">
+		<!-->
+		var step=1
+		function slideit(){
+			document.images.slide.src=eval("image"+step+".src")
+			if(step<7)
+				step++
+			else
+				step=1
+			setTimeout("slideit()",2500)
+		}
+		slideit()
+		//-->
+		</script>
+		<font class="enveloperight" style="width: 570px; margin-top: 25px">
+		<ol>
+			<li value=8><b>Foster, K.L.</b>, Lutek, K.K., and Standen, E.M.  (In revision).  Neuromuscular control and mechanical constraints during an amphibious transition in <i>Polypterus senegalus</i>.
+			</li>
+			<br />
+			<li value=7><b>Foster, K.L.</b>, Garland, T. Jr., Schmitz, L, and Higham, T.E.  (2018).  Skink ecomorphology: forelimb and hind limb lengths, but not static stability, correlate with habitat use and demonstrate multiple solutions. <i>Biological Journal of the Linnean Society</i> <b>125</b>, 673-692. <a href="./Foster et al 2018b.pdf" target="_blank">pdf</a>
+			</li>
+			<br />
+			<li value=6><b>Foster, K.L.</b>, Dhuper, M., and Standen, E.M.  (2018).  Fin and body neuromuscular coordination changes during walking and swimming in <i>Polypterus senegalus</i>. <i>Journal of Experimental Biology</i> <b>221</b>, 1-13. <a href="./Foster et al 2018a.pdf" target="_blank">pdf</a>
+			</li>
+			<br />
+			<li value=5><b>Foster, K.L.</b> and Higham, T.E.  (2017).  Integrating gastrocnemius force-length properties, <i>in vivo</i> activation, and operating lengths reveals how <i>Anolis</i> deal with ecological challenges. <i>Journal of Experimental Biology</i> <b>220</b>, 796-806. <a href="./Foster and Higham 2017.pdf" target="_blank">pdf</a>
+			</li>
+			<br />
+			<li value=4><b>Foster, K.L.</b>, Collins, C.E., Higham, T.E., and Garland, T., Jr.  (2015).  Determinants of lizard escape performance: decision, motivation, ability, and opportunity. In <i>Escaping from predators: An integrative view of escape decisions</i>, eds. W.E. Cooper, Jr. and D.T. Blumstein. <a href="https://www.cambridge.org/core/books/escaping-from-predators/determinants-of-lizard-escape-performance-decision-motivation-ability-and-opportunity/03A108BF93E4E596F9618C2A6AC46894#fndtn-information" target="_blank">chapter</a>
+			</li>
+			<br />
+			<li value=3><b>Foster, K.L.</b> and Higham, T.E.  (2014).  Context-dependent changes in motor control and kinematics during locomotion: modulation and decoupling. <i>Proceedings of the Royal Society B</i> <b>281</b>, 20133331. <a href="./Foster and Higham 2014.pdf" target="_blank">pdf</a>
+			</li>
+			<br />
+			<li value=2><b>Foster, K.L.</b> and Higham, T.E.  (2012).  How forelimb and hindlimb function changes with incline and perch diameter in the green anole, <i>Anolis carolinensis</i>.  <i>Journal of Experimental Biology </i> <b>215</b>, 2288-2300. <a class=main href="./Foster and Higham 2012.pdf" target="_blank">pdf</a>
+			</li>
+			<br />
+			<li value=1><b>Foster, K.L.</b> and Higham, T.E.  (2010).  How to build a pectoral fin:  Functional morphology and steady swimming kinematics of the spotted ratfish.  <i>Canadian Journal of Zoology </i> <b>88</b>, 774-780. <a class=main href="./Foster and Higham 2010.pdf" target="_blank">pdf</a>
+			</li>
+		</ol>
+		</font>
+    </div>
+    <div id="tab4">
+    	<h1 class="envelopeteaching"><center>Teaching</center></h1>
+		<hr />
+		<img src="./me and little toad.JPG" alt="me and little toad" class="envelopeleft" style="margin-top: 15px; margin-left: 250px">
+		<font class="envelopeleft" style="margin-top: 15px; margin-right: 10px">
+		<ul>
+			<li>
+				<b>Teaching assistant, Biology of Marine Fishes</b>, <a href="http://www.bms.bc.ca" target="_blank">Bamfield Marine Sciences Centre</a>, Vancouver Island, Canada, Summer 2019.  Involved in course design, planning and executing laboratory and field activities, assisting students with independent projects, and grading.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Animal Behavior (BIOL 160)</b>, <a href="http://biology.ucr.edu/" target="_blank">University of California, Riverside</a>, Riverside, California, Spring 2015.  Responsible for leading and grading four discussion sessions a week.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Functional Anatomy of the Vertebrates (BIOL 161B)</b>, <a href="http://biology.ucr.edu/" target="_blank">University of California, Riverside</a>, Riverside, California, Winter 2015.  Responsible for instructing and grading two laboratory sessions a week.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Functional Anatomy of the Vertebrates (BIOL 161A)</b>, <a href="http://biology.ucr.edu/" target="_blank">University of California, Riverside</a>, Riverside, California, Fall 2014.  Responsible for instructing and grading two laboratory sessions a week.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Biology of Marine Fishes</b>, <a href="http://www.bms.bc.ca" target="_blank">Bamfield Marine Sciences Centre</a>, Vancouver Island, Canada, Summer 2011.  Involved in planning and executing laboratory and field activities, assisting students with independent projects, and grading.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Human Physiology (BIOSC 316)</b>, <a href="http://www.clemson.edu" target="_blank">Clemson University</a>, January to May 2011.  Responsible for instructing and grading two laboratory sessions a week.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Comparative Physiology (BIOSC 475)</b>, <a href="http://www.clemson.edu" target="_blank">Clemson University</a>, August to December 2010.  Responsible for instructing and grading two laboratory sessions a week.
+			</li>
+			<br />
+			<li>
+				<b>Teaching assistant, Biomechanics</b>, <a href="http://www.bms.bc.ca" target="_blank">Bamfield Marine Sciences Centre</a>, Vancouver Island, Canada, Summer 2010.  Involved in planning and executing laboratory and field activities, assisting students with independent projects, and grading.
+			</li>
+		</ul>
+		</font>
+    </div>    
+    <div id="tab5">
+	<h1 class="envelopepresentations"><center>Presentations</center></h1>
+		<hr />
+<img src="./me and garmani-2_small.jpg" alt="Anolis germani and me" class="envelopeleft" style="margin-top: 15px; margin-left: 250px">
+		<font class="envelopeleft" style="margin-top: 15px; margin-right: 10px">
+		* denotes undergraduate student
+		<ol>
+			<li VALUE=27>
+				<b>Foster, K.L.</b> and Selvitella, A.M. 2019. The data science revolution in biomechanics: traditional statistical tests vs modern machine learning methods in the study of lizard locomotion. Oral presentation given at the Data Science Week at Purdue University, Fort Wayne, IN.
+			</li>
+			<br />
+			<li VALUE=26>
+				Anderson, M.*, Chen, Y.*, Dearing, R.*, Flores, K.*, Ferguson, J.*, Grabau, J.*, Harris, B.*, Kaiser, Z.*, Kirk, J.*, Kohne, K.*, McCann, B.*, Mueller, A.*, Ponce, K.*, Powers, A.*, <b>Foster, K.L.</b>, and Selvitella, A.M. 2019. Uncovering the impact of the environment in lizard biomechanics: from classical methods to modern statistical learning. Poster presentation given at the Data Science Week at Purdue University, Fort Wayne, IN.
+			</li>
+			<br />
+			<li VALUE=25>
+				Anderson, M.*, Chen, Y.*, Dearing, R.*, Flores, K.*, Ferguson, J.*, Grabau, J.*, Harris, B.*, Kaiser, Z.*, Kirk, J.*, Kohne, K.*, McCann, B.*, Mueller, A.*, Ponce, K.*, Powers, A.*, <b>Foster, K.L.</b>, and Selvitella, A.M. 2019. Leaf shape analysis and classification via supervised learning. Poster presentation given at the Data Science Week at Purdue University, Fort Wayne, IN.
+			</li>
+			<br />
+			<li VALUE=24>
+				<b>Foster, K.L.</b>, Dhuper, M.*, and Standen, E.M. 2018. <i>In vivo</i> activation and contractile function of muscle during walking and swimming in <i>Polypterus senegalus</i>. Oral presentation given at the Conference on Bio-propulsion of Adaptive Systems at the Queens University Biological Station, Elgin, Ontario, Canada.
+			</li>
+			<br />
+			<li VALUE=23>
+				<b>Foster, K.L.</b>, Lutek, K., Silverman, J.*, and Standen, E.M. 2018. Neuromuscular function and kinematics of the walking to swimming transition in <i>Polypterus senegalus</i>. Oral presentation given at the annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a>, St. John's, Newfoundland, Canada.
+			</li>
+			<br />
+			<li VALUE=22>
+				<b>Foster, K.L.</b> and Standen, E.M. 2018. Fin and body neuromuscular coordination changes during walking and swimming in <i>Polypterus senegalus</i>. Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, San Francisco, CA.
+			</li>
+			<br />
+			<li VALUE=21>
+				<b>Foster, K.L.</b> and Standen, E.M. 2017. Neuromuscular function and coordination of fin and body musculature during swimming and walking in <i>Polypterus senegalus</i>. Oral presentation given at the annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a>, Winnipeg, Manitoba, Canada.
+			</li>
+			<br />
+			<li VALUE=20>
+				<b>Foster, K.L.</b> and Higham, T.E. 2017. Comparative neuromuscular function during arboreal locomotion in <i>Anolis</i> lizards. Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, New Orleans, LA.
+			</li>
+			<br />
+			<li VALUE=19>
+				<b>Foster, K.L.</b> and Higham, T.E. 2016. Comparative arboreal locomotion of <i>Anolis</i> lizards. Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, Portland, OR.
+			</li>
+			<br />
+			<li VALUE=18>
+				<b>Foster, K.L.</b> and Higham, T.E. 2015. Muscle recruitment and mechanics are modulated during arboreal locomotion in <i>Anolis</i> lizards. Oral presentation given at the annual meeting of the <a href="http://www.sebiology.org/" target="_blank">Society for Experimental Biology</a>, Prague, Czech Republic.
+			</li>
+			<br />
+			<li VALUE=17>
+				<b>Foster, K.L.</b> and Higham, T.E. 2015. Modulation of muscle function during arboreal locomotion in <i>Anolis</i> lizards. Oral presentation given in the <a href="http://www.csz-scz.ca/awards/hoar/description.html" target="_blank">William S. Hoar Award</a> session at the annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a>, Calgary, Alberta, Canada. (Winning presentation)
+			</li>
+			<br />
+			<li VALUE=16>
+				<b>Foster, K.L.</b> and Higham, T.E. 2015. Modulation of muscle function during arboreal locomotion in <i>Anolis</i> lizards. Oral presentation given at GradFest, the Department of Biology graduate student recruitment weekend, Riverside, CA.
+			</li>
+			<br />
+			<li VALUE=15>
+				<b>Foster, K.L.</b> and Higham, T.E. 2015. The mechanical functions of muscle and tendon during arboreal locomotion in Anolis lizards. Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, West Palm Beach, FL.
+			</li>
+			<br />
+			<li VALUE=14>
+				<b>Foster, K.L.</b>, Garland, T., Jr., and Higham, T.E. 2015. Ecomorphology of lygosomine skinks: the impact of habitat use on limb length. Poster presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, West Palm Beach, FL.
+			</li>
+			<br />
+			<li VALUE=13>
+				<b>Foster, K.L.</b> (2014).  Presenting your research to judges, teachers, and adults: what to say and how to say it.  Invited lecture at the Pomona Unified School District Science Fair Expo, Pomona, CA.
+			</li>
+			<br />
+			<li VALUE=12>
+				<b>Foster, K.L.</b> (2014).  Statistics for science fairs: what you need to know about basic graphing and statistics.  Invited lecture at the Riverside County Office of Education Science Fair Expo, Riverside, CA.
+			</li>
+			<br />
+			<li VALUE=11>
+				<b>Foster, K.L.</b> and Higham, T.E. (2014).  Muscle and tendon function in <i>Anolis</i> lizards.  Oral presentation given at the Southwest Organismal Biology meeting, Irvine, CA.
+			</li>
+			<br />
+			<li VALUE=10>
+				<b>Foster, K.L.</b> and Higham, T.E. (2014).  Context-dependent modulation and decoupling of motor control and kinematics during locomotion in the green anole (<i>Anolis carolinensis</i>).  Oral presentation given in the William S. Hoar Award session at <a href="http://www.genomesbiomes.ca/" target="_blank">Genomes to/aux Biomes 2014 - Joint meeting of the Canadian Society of Ecology and Evolution, Canadian Society of Zoologists, and Society of Canadian Limnologists</a>, Montreal, Canada.
+			</li>
+			<br />
+			<li VALUE=9>
+				<b>Foster, K.L.</b> (2013).  Analyzing data: why and how to make graphs for science fair projects.  Invited lecture at the Coachella Valley Science Fair Expo, Palm Desert, CA.
+			</li>
+			<br />
+			<li VALUE=8>
+				<b>Foster, K.L.</b> (2013).  Statistics in science: methods, insights, and limitations of statistics in scientific research.  Invited lecture at the Coachella Valley Science Fair Expo, Palm Desert, CA.
+			</li>
+			<br />
+			<li VALUE=7>
+				<b>Foster, K.L.</b> (2013).  Statistics in science: methods, insights, and limitations of statistics in scientific research.  Invited lecture at the Riverside County Office of Education Science Fair Expo, Riverside, CA.
+			</li>
+			<br />
+			<li VALUE=6>
+				<b>Foster, K.L.</b> and Higham, T.E.  (2013).  Functional mechanisms underlying the relationship between morphology and habitat use in lizards.  Symposium presentation given at the <a href="http://icvm2013.com/" target="_blank">International Congress of Vertebrate Morphology</a>, Barcelona, Spain.
+			</li>
+			<br />			
+			<li VALUE=5>
+				<b>Foster, K.L.</b> and Higham, T.E.  (2013).  Neuromuscular control of arboreal locomotion: how green anoles (<i>Anolis carolinensis</i>) deal with changes in incline and perch diameter.  Oral presentation given at GradFest, the Dept. of Biology’s graduate student recruitment weekend, Riverside, CA.
+			</li>
+			<br />
+			<li VALUE=4>
+				<b>Foster, K.L.</b> and Higham, T.E.  (2013).  Neuromuscular control of arboreal locomotion: how green anoles (<i>Anolis carolinensis</i>) deal with changes in incline and perch diameter.  Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, San Francisco, CA.
+			</li>
+			<br />
+			<li VALUE=3>
+				<b>Foster, K.L.</b> and Higham, T.E.  (2012).  How fore- and hindlimb function changes with incline and perch diameter in <i>Anolis carolinensis</i>.  Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, Charleston, SC.
+			</li>
+			<br />
+			<li VALUE=2>
+				<b>Foster, K.L.</b> and Higham, T.E.  (2010).  Functional morphology and biomechanics of ratfish steady swimming.  Oral presentation given at the annual meeting of the <a href="http://www.sicb.org" target="_blank">Society for Integrative and Comparative Biology</a>, Seattle, WA.
+			</li>
+			<br />
+			<li value=1>
+				<b>Foster, K.L.</b>  (2009).  Flight of the Dr. Seuss fish:  Pectoral fin functional morphology of the spotted ratfish (Hydrolagus colliei).  Oral presentation at <a href="http://www.bms.bc.ca" target="_blank">Bamfield Marine Sciences Centre</a>, BC, Canada.
+			</li>
+		</ol>
+		</font>
+
+    </div>
+    <div id="tab6">
+	<h1 class="envelopenews"><center>News</center></h1>
+		<hr />
+		<font class="envelopeleft" style="width: 570px; margin-top:15px">
+		<ul>
+			<li>
+				<b>01/06/20:</b>  I have begun my position as Assistant Professor of Biology at Ball State University!
+			</li>
+			<br />			
+			<li>
+				<b>08/19/19:</b>  I am now a Visiting Scholar in the Department of Mathematical Sciences at Purdue University, Fort Wayne, hosted by Dr. Dr. Alessandro Maria Selvitella.
+			</li>
+			<br />			
+			<li>
+				<b>10/10/18:</b>  My paper about limb ecomorphology in lygosomine skinks has just been published in the <i>Biological Journal of the Linnean Society</i>. The full article can be found <a href="https://doi.org/10.1093/biolinnean/bly146" target="_blank">here</a>.
+			</li>
+			<br />			
+			<li>
+				<b>09/02/18:</b>  My paper about limb ecomorphology in lygosomine skinks was just accepted for publication in the <i>Biological Journal of the Linnean Society</i>. We found some very interesting clade-dependent effects that suggest that these skinks are achieving multiple solutions to similar ecological problems.
+			</li>
+			<br />			
+			<li>
+				<b>07/23/18:</b>  I gave an oral presentation about the contractile mechanics of pectoral fin muscle during swimming and walking in (<i>Polypterus senegalus</i>) at the Conference on Bio-propulsion of Adaptive Systems at the Queens University Biological Station, Elgin, Ontario.
+			</li>
+			<br />
+			<li>
+				<b>07/02/18:</b>  My paper about fin and body neuromuscular activation in walking and swimming <i>Polypterus senegalus</i> was just accepted for publication in the <i>Journal of Experimental Biology</i>. The full article can be found <a href="http://jeb.biologists.org/content/221/17/jeb168716" target="_blank">here</a>.
+			</li>
+			<br />
+			<li>
+				<b>05/08/18:</b>  I gave an oral presentation about fin and body muscle activation patterns during the swimming to walking transition in bichirs (<i>Polypterus senegalus</i>) at the Canadian Society of Biologists annual meeting in st. John's, Newfoundland.
+			</li>
+			<br />
+			<li>
+				<b>01/05/18:</b>  I gave an oral presentation about fin and body muscle activation patterns and kinematics of swimming and walking bichirs (<i>Polypterus senegalus</i>) at the Society for Integrative and Comparative Biology annual meeting in San Francisco, California.
+			</li>
+			<br />
+			<li>
+				<b>08/25/17:</b>  The <a href="http://standenlab.com/" target="_blank">Standen Lab</a> is looking for new graduate students. Both Canadian and international students are highly encouraged to apply. To see the full ad, <a href="./Standen_lab_ad_for_graduate_positions.pdf" target="_blank">click here</a> (opens in a new tab).
+			</li>
+			<br />
+			<li>
+				<b>05/16/17:</b>  I gave an oral presentation about fin and body muscle activation patterns and kinematics of swimming and walking bichirs (<i>Polypterus senegalus</i>) at the Canadian Society of Zoologists annual meeting in Winnipeg, Manitoba.
+			</li>
+			<br />
+			<li>
+				<b>03/01/17:</b>  The third chapter of my dissertation was just published in the <i>Journal of Experimental Biology</i>!
+			</li>
+			<br />
+			<li>
+				<b>01/08/17:</b>  I gave an oral presentation comparing the muscle activation patterns of five <i>Anolis</i> species at the SICB annual meeting in New Orleans, LA.
+			</li>
+			<br />
+			<li>
+				<b>09/01/16:</b>  I have accepted a postdoc position in <a href="http://www.standenlab.com" target="_blank">Dr. Emily Standen</a>'s comparative and evolutionary biomechanics lab at the University of Ottawa. I can't wait to get started working with this fabulous group!
+			</li>
+			<br />
+			<li>
+				<b>06/06/16:</b>  I successfully defended my dissertation! Many thanks to all who attended, especially my dissertation committee: <a href="http://biomechanics.ucr.edu" target="_blank">Dr. Tim Higham</a>, <a href="http://www.biology.ucr.edu/people/faculty/Chappell.html" target="_blank">Dr. Mark Chappell</a>, and <a href="http://cbns.ucr.edu/faculty/currie.html" target="_blank">Dr. Scott Currie</a>.
+			</li>
+			<br />
+			<li>
+				<b>01/06/16:</b>  I gave an oral presentation about the comparative locomotor kinematics of six Puerto Rican <i>Anolis</i> species at the SICB annual meeting in Portland, OR.
+			</li>
+			<br />
+			<li>
+				<b>09/22/15:</b>  We have two new lab mates: welcome to Emily Naylor and <a href="http://jleetingle.com/" target="_blank">Jessica Tingle</a>
+			</li>
+			<br />
+			<li>
+				<b>08/22/15:</b>  I just got back from field work in Puerto Rico - Clint Collins (a lab mate) and I caught 42 anoles from 6 species! Stay tuned for the comparative chapter of my dissertation!
+			</li>
+			<br />
+			<li>
+				<b>07/01/15:</b>  I gave an oral presentation about muscle function in Anolis equestris at the SEB annual meeting in Prague, Czech Republic.
+			</li>
+			<br />
+			<li>
+				<b>05/28/15:</b>  I won the <a href="http://www.csz-scz.ca/awards/hoar/description.html" target="_blank">William S. Hoar Award</a> for best student oral presentation at the annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a> in Calgary, Alberta, Canada.
+			</li>
+			<br />
+			<li>
+				<b>04/23/15:</b>  I was awarded a <a href="http://www.biologists.com/index.shtml" target="_blank">Company of Biologists</a> Travel Grant by the <a href="http://www.sebiology.org/" target="_blank">Society for Experimental Biology</a> to help subsidize my travel to their annual meeting in Prague, Czech Republic.
+			</li>
+			<br />
+			<li>
+				<b>04/15/15:</b>  I was awarded a UCR Dissertation-Year Fellowship for the upcoming final year of my PhD.
+			</li>
+			<br />
+			<li>
+				<b>04/07/15:</b>  I was awarded a <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a> travel grant to help subsidize my travel to the upcoming annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a> in Calgary, Alberta, Canada.
+			</li>
+			<br />
+			<li>
+				<b>04/06/15:</b>  I was chosen as a finalist to compete for the <a href="http://www.csz-scz.ca/awards/hoar/description.html" target="_blank">William S. Hoar Award</a> for best student oral presentation at the upcoming annual meeting of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a> in Calgary, Alberta, Canada.
+			</li>
+			<br />
+			<li>
+				<b>03/14/15:</b>  I gave an oral presentation on the modulation of muscle function in <i>Anolis equestris</i> at GradFest, the UCR Department of Biology annual graduate student recruitment weekend.
+			</li>
+			<br />
+			<li>
+				<b>03/01/15:</b>  The UCR Biology grad students hosted a Science Day at the Riverside Metropolitan Museum. We had a great turnout!
+			</li>
+			<br />
+			<li>
+				<b>01/07/15:</b>  I gave an oral presentation on the function of muscles and tendons in <i>Anolis equestris</i> at the SICB annual meeting in West Palm Beach, FL. The talk was just featured in <a href="http://www.anoleannals.org/2015/01/09/sicb-2015-the-mechanics-of-arboreal-locomotion/" target="_blank">a post on Anole Annals</a>!
+			</li>
+			<br />
+			<li>
+				<b>01/04/15:</b>  I presented a poster on the ecomorphology of lygosomine skinks at the SICB annual meeting in West Palm Beach, FL. The poster was just featured in <a href="http://www.anoleannals.org/2015/01/07/sicb-2015-the-ecomorphology-of-lygosomine-skinks/" target="_blank">a post on Anole Annals</a>!
+			</li>
+			<br />
+			<li>
+				<b>10/11/14:</b>  I gave a lecture at the Pomona Unified School District Science Fair Expo in Riverside, CA.
+			</li>
+			<br />
+			<li>
+				<b>10/04/14:</b>  I gave a lecture and consulted at the Riverside County Office of Education Science Fair Expo in Riverside, CA.
+			</li>
+			<br />
+			<li>
+				<b>09/20/14:</b>  I gave an oral presentation at the Southwest Organismal Biology meeting, in Irvine, California.
+			</li>
+			<br />
+			<li>
+				<b>05/28/14:</b>  I gave an oral presentation in the <a href="http://www.csz-scz.ca/awards/hoar/description.html" target="_blank">William S. Hoar Award</a> session at <a href="http://www.genomesbiomes.ca/" target="_blank">Genomes to/aux Biomes 2014 - Joint meeting of the Canadian Society of Ecology and Evolution, Canadian Society of Zoologists, and Society of Canadian Limnologists</a>, in Montreal, Canada.
+			</li>
+			<br />
+			<li>
+				<b>05/14/14:</b>  UCR awarded me a Dissertation Research Grant.
+			</li>
+			<br />
+			<li>
+				<b>05/12/14:</b>  UCR awarded me the Earle C. Anthony Travel Award to help subsidize my upcoming participation at the <a href="http://www.genomesbiomes.ca/" target="_blank"> joint meeting</a> of the <a href="http://www.csz-scz.ca/" target="_blank">CSZ</a>, <a href="http://csee-scee.ca/" target="_blank">CSEE</a>, and <a href="http://uregina.ca/~scl/society.htm" target="_blank">SCL</a> in Montreal, QC, Canada (May 25-29, 2014).
+			</li>
+			<br />
+			<li>
+				<b>04/28/14:</b>  I have received an EPCOR Water Ltd. Student Travel Award to help subsidize my upcoming participation at the <a href="http://www.genomesbiomes.ca/" target="_blank">joint meeting</a> of the Canadian Society of Zoologists (<a href="http://www.csz-scz.ca/" target="_blank">CSZ</a>), Canadian Society for Ecology and Evolution (<a href="http://csee-scee.ca/" target="_blank">CSEE</a>), and Society of Canadian Limnologists (<a href="http://uregina.ca/~scl/society.htm" target="_blank">SCL</a>) in Montreal, QC, Canada (May 25-29, 2014).
+			</li>
+			<br />
+			<li>
+				<b>04/21/14:</b>  I was awarded a Vaughan H. Shoemaker Graduate Fellowship from UCR to support my upcoming field research in Jamaica.
+			</li>
+			<br />
+			<li>
+				<b>03/26/14:</b>  I wrote an <a href="http://www.anoleannals.org/2014/03/26/decoupled-muscle-activity-and-kinematics-in-green-anoles-anolis-carolinensis-new-research-by-kathleen-foster-and-tim-higham/" target="_blank">article</a> for <a href="http://www.anoleannals.org/" target="_blank">Anole Annals</a> to highlight the impact of my recent <a href="http://rspb.royalsocietypublishing.org/content/281/1782/20133331.abstract" target="_blank"><i>Proc. R. Soc. B.</i> paper</a> on <i>Anolis</i> research.
+			</li>
+			<br />
+			<li>
+				<b>03/15/14:</b>  I have been selected as one of the 6 finalists to compete for the Hoar Award for student excellence in scientific research and communication.  The finalists will present in a special session at the <a href="http://www.genomesbiomes.ca/" target="_blank">annual meeting</a> of the <a href="http://www.csz-scz.ca/" target="_blank">Canadian Society of Zoologists</a> (a joint meeting with the Canadian Society of Ecology and Evolution and Society of Canadian Limnologists) in Montreal, QC, Canada (May 25-29, 2014).
+			</li>
+			<br />
+			<li>
+				<b>03/15/14:</b>  I helped organize the UCR <a href="http://eeob.ucr.edu" target="_blank">EEOB program</a>'s recruitment weekend, called GradFest. We had many interesting talks and the weekend went off really well.
+			</li>
+			<br />
+			<li>
+				<b>03/14/14:</b>  My interview article on UCR Today was picked up by <a href="http://www.sciencedaily.com/releases/2014/03/140314095106.htm" target="_blank">Science Daily</a>.
+			</li>
+			<br />
+			<li>
+				<b>03/13/14:</b>  My newest paper has been highlighted in a <a href="http://ucrtoday.ucr.edu/21049" target="_blank">feature article</a> on UCR Today.
+			</li>
+			<br />
+			<li>
+				<b>03/12/14:</b>  My <a href="http://rspb.royalsocietypublishing.org/content/281/1782/20133331.abstract" target="_blank">newest paper</a> has been published online in <i>Proceedings of the Royal Society B</i>!
+			</li>
+			<br />
+			<li>
+				<b>03/08/14:</b>  I participated at the Biology Department's station of UCR's Discover Day (undergraduate recruitment event)
+			</li>
+			<br />
+			<li>
+				<b>03/02/14:</b>  The Higham lab ran a "First Sundays" event a the Riverside Metropolitan Museum. It was called "Animal Olympics" and it was a huge success!
+			</li>
+			<br />
+			<li>
+				<b>02/17/14:</b>  My most recent paper, "Context-dependent changes in motor control and kinematics during locomotion: modulation and decoupling", has been accepted for publication in <i>Proceedings of the Royal Society B</i>!
+			</li>
+			<br />
+			<li>
+				<b>02/11/14:</b>  I helped judge the Riverside Unified School District science fair in Riverside, CA.
+			</li>
+			<br />
+			<li>
+				<b>01/07/14:</b>  I helped judge the science fair at Alcott Elementary School in Riverside, CA.
+			</li>
+			<br />
+			<li>
+				<b>12/07/13:</b>  I consulted and gave two lectures, one about statistics for older students and teachers and one about graphing for younger students, at the first annual Coachella Valley Science Fair Expo in Palm Desert, CA.
+			</li>
+			<br /><li>
+				<b>11/13/13:</b>  Our lab gave presentations and performed experiments about animal superpowers as an outreach activity for grades K-6 at Alcott Elementary School, in Riverside, CA. We talked about the different adhesive mechanisms animals use to climb and the difference between biting and suction feeding in fishes.
+			</li>
+			<br />
+			<li>
+				<b>10/31/13:</b>  I was interviewed as an outside expert in <a href="http://scienceline.org/2013/10/tree-frogs-evolving-to-monkey-around/" target="_blank">this article</a>, highlighting a <a href="http://jeb.biologists.org/content/216/19/3599.abstract?sid=1bca4fb5-e656-4a5b-8e76-7b87e40e9016" target="_blank">recent paper</a> about tree frog biomechanics written by Anthony Herrel and others.
+			</li>
+			<br />
+			<li>
+				<b>10/26/13:</b>  Our lab at UCR hosted the <a href="http://www.biomechanics.ucr.edu/ucr2013" target="_blank">SW regional DCB/DVM SICB</a>.  It was a great success!
+			</li>
+			<br />
+			<li>
+				<b>10/05/13:</b> Our lab is hosting the <a href="http://www.biomechanics.ucr.edu/ucr2013" target="_blank">SW regional DCB/DVM SICB</a> on Oct. 26, 2013 - registration is now open!
+			</li>
+			<br />
+			<li>
+				<b>10/05/13:</b> Lectured and consulted at the Riverside County Office of Education Science Fair Expo in Riverside, CA.
+			</li>
+			<br />
+			<li>
+				<b>07/12/13:</b> Presented in a symposium at the <a href="http://icvm2013.com/" target="_blank">International Congress of Vertebrate Morphology</a> in Barcelona, Spain.
+			</li>
+			<br />
+			<li>
+				<b>06/17/13:</b> Passed my comprehensive exams - I am now a PhD candidate!
+			</li>
+			<br />
+			<li>
+				<b>04/17/13:</b> Elected EEOB GSA president for 2013-14 academic year.
+			</li>
+			<br />
+			<li>
+				<b>04/15/13:</b> We have another new post-doc! Welcome to Bill Stewart!
+			</li>
+			<br />
+			<li>
+				<b>01/07/13:</b> Presented at <a href="http://www.sicb.org" target="_blank">SICB</a> conference in San Francisco, CA.
+			</li>
+			<br />
+			<li>
+				<b>12/03/12:</b> Our new post-doc, Aleksandra Birn-Jeffery, arrived!
+			</li>
+			<br />
+			<li>
+				<b>11/27/12:</b> Awarded <a href="http://www.ucr.edu" target="_blank">UCR</a> GSA travel grant.
+			</li>
+			<br />
+			<li>
+				<b>09/17/12:</b> We have 3 new grad students in the lab!
+			</li>
+			<br />
+			<li>
+				<b>05/14/12:</b> Awarded <a href="http://www.ucr.edu" target="_blank">UCR</a> Fee Fellowship.
+			</li>
+			<br />
+			<li>
+				<b>06/06/12:</b> Anole kinematics paper published in <a href="http://jeb.biologists.org" target="_blank">JEB</a>.
+			</li>
+			<br />
+			<li>
+				<b>01/04/12:</b> Presented at <a href="http://www.sicb.org" target="_blank">SICB</a> conference in Charleson, SC.
+			</li>
+			<br />
+			<li>
+				<b>08/08/11:</b> Lab moved from <a href="http://www.clemson.edu" target="_blank">Clemson</a> to <a href="http://www.ucr.edu" target="_blank">UCR</a>.
+			</li>
+			<br />
+			<li>
+				<b>06-07/11:</b> TA'd Biology of Marine Fishes course at <a href="http://www.bms.bc.ca" target="_blank">BMSC</a>.
+			</li>
+			<br />
+			<li>
+				<b>03/21/11:</b> Awarded <a href="http://www.bms.bc.ca" target="_blank">BMSC</a> grad student scholarship.
+			</li>
+			<br />
+			<li>
+				<b>03/18/11:</b> Awarded <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/BellandPostgrad-BelletSuperieures_eng.asp" target="_blank">NSERC PGS-D</a>.
+			</li>
+			<br />
+			<li>
+				<b>03/03/11:</b> Awarded <a href="http://www.clemson.edu" target="_blank">Clemson</a> Professional Enrichment Grant.
+			</li>
+		</ul>
+		</font>
+		<img src="./Inigo_small_labelled.jpg" alt="Inigo the iguana" class="enveloperight" style="margin-top: 60px">
+		<img src="./me and garmani-3_small.jpg" alt="Anolis garmani and me" class="enveloperight" style="margin-top: 30px">
+    </div>
+    <div id="tab7">
+	<h1 class="envelopeteaching" style="width: 270px"><center>Collaborators</center></h1>
+		<hr />
+		<img src="./lab_photo_small.jpg" alt="Higham lab photo" class="envelopeleft" style="margin-top: 70px">
+		<font class="enveloperight" style="width: 570px; margin-top: 15px">
+
+			<ul>
+				<li>
+					<b><a href="http://users.pfw.edu/aselvite/" target="_blank">Alessandro Selvitella</a></b> - Purdue University, Fort Wayne, Machine learning applications to biology and medicine, mathematical foundations of machine learning, statistics on manifolds, partial differential equations
+				</li>
+				<br />
+				<li>
+					<b><a href="http://www.biomechanics.ucr.edu" target="_blank">Tim Higham</a></b> - University of California, Riverside, Comparative biomechanics and muscle physiology, primarily in herps
+				</li>
+				<br />
+				<li>
+					<b><a href="http://www.biology.ucr.edu/people/faculty/Garland.html" target="_blank">Ted Garland</a></b> - University of California, Riverside, Evolutionary physiology
+				</li>
+				<br />
+				<li>
+					<b><a href="https://sites.google.com/site/aleksbirnjeffery/" target="_blank">Aleksandra Birn-Jeffery</a></b> - Queen Mary, University of London, Comparative biomechanics and kinetics
+				</li>
+				<br />
+				<li>
+					<b><a href="http://emilyakane.blogspot.com/" target="_blank">Emily Kane</a></b> - Georgia Southern University, Comparative biomechanics of locomotion and feeding in fishes
+				</li>
+				<br />
+				<li>
+					<b><a href="http://jpolberding.wix.com/jpolberding" target="_blank">Jeff Olberding</a></b> - University of California, Irvine, Comparative biomechanics and muscle physiology in herps
+				</li>
+				<br />
+				<li>
+					<b><a href="http://www.whitney.ufl.edu/welcome-dr-william-stewart/" target="_blank">Bill Stewart</a></b> - Whitney Laboratory for Marine Bioscience, Comparative biomechanics in fishes
+				</li>
+				<br />
+				<li>
+					<b><a href="http://saxicoly.wixsite.com/clintecollins" target="_blank">Clint Collins</a></b> - University of California, Riverside, Comparative biomechanics and locomotor performance in herps
+				</li>
+				<br />
+				<li>
+					<b><a href="http://kevinjagnandan.wixsite.com/biomechanics" target="_blank">Kevin Jagnandan</a></b> - University of California, Riverside, Comparative biomechanics and tail autotomy
+				</li>
+				<br />
+				<li>
+					<b>Vicky Zhuang</b> - University of California, Riverside, Functional morphology and biomechanics of gecko feet
+				</li>
+				<br />
+				<li>
+					<b><a href="http://jleetingle.com/" target="_blank">Jessica Tingle</a></b> - University of California, Riverside, Functional morphology and biomechanics of sidewinding snakes
+				</li>
+				<br />
+				<li>
+					<b>Emily Naylor</b> - University of California, Riverside, Functional morphology and functional ecology of tetrapods
+				</li>
+				<br />
+				<li>
+					<b><a href="http://www.standenlab.com/" target="_blank">Emily Standen</a></b> - University of Ottawa, Comparative and evolutionary biomechanics, primarily in <i>Polypterus</i> fishes
+				</li>
+				
+			</ul>
+
+			</font>
+    </div>
+</div>
+</div>
+<font size="2px" color="#F7F2E0" align="bottom"><center>Last updated: January 10, 2020</center></font>
+</body>
+
+</html>
